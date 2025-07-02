@@ -1,0 +1,56 @@
+# --- Java ---
+*.class
+*.log
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# --- Gradle ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- IntelliJ / VSCode / Eclipse ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.sw?
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Docker ---
+*.env
+.env.*
+docker-compose.override.yml
+
+# --- Test Reports ---
+test-output/
+target/
+reports/
+
+# --- CI/CD / Coverage ---
+*.coverage
+coverage/
+jacoco.exec
+
+# --- User service generated files ---
+**/out/
+**/build/
+
+# --- K8s or temp manifests ---
+*.yaml~
+*.yml~
+
+# --- Misc ---
+*.bak
+*.tmp
+
