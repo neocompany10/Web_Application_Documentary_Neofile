@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: johann
+      changes:
+        - sqlFile:
+            path: db/sql/users/insert-initial-data.sql
+            relativeToChangelogFile: true

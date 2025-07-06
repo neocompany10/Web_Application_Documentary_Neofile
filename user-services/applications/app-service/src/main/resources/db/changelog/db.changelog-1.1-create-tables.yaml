@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2
+      author: neofile-admin
+      changes:
+        - sqlFile:
+            path: db/sql/users/create-tables.sql
+            relativeToChangelogFile: true

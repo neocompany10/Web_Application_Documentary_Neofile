@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: neofile-admin
+      changes:
+        - sql:
+            sql: CREATE SCHEMA IF NOT EXISTS users_schema AUTHORIZATION neofile_admin;
