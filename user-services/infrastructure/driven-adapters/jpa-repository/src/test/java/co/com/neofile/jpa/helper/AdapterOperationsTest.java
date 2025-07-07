@@ -1,7 +1,5 @@
 package co.com.neofile.jpa.helper;
 
-import co.com.neofile.jpa.JPARepository;
-import co.com.neofile.jpa.JPARepositoryAdapter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;

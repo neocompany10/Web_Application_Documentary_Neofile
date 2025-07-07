@@ -6,7 +6,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface PersonRepository {
-    Optional<Person> findById(Long id);
+
+    Person findById(Long id);
     Optional<Person> findByEmail(String email);
     List<Person> findAll();
     Person save(Person person);

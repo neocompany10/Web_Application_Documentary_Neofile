@@ -7,7 +7,7 @@ import java.util.Optional;
 
 public interface UserRepository {
 
-    Optional<User> findById(Long id);
+    User findById(Long id);
     Optional<User> findByUsername(String username);
     List<User> findAll();
     User save(User user);
@@ -15,5 +15,4 @@ public interface UserRepository {
 
     // Extra
     List<User> findUsersByRole(String roleName);
-    List<User> findUsersByPermission(String permissionName);
 }

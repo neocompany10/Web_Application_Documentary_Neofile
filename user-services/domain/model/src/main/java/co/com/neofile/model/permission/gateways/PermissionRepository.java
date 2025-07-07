@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface PermissionRepository {
-    Optional<Permission> findById(Long id);
+    Permission findById(Long id);
     Optional<Permission> findByName(String name);
     List<Permission> findAll();
     Permission save(Permission permission);
