@@ -4,5 +4,5 @@ databaseChangeLog:
       author: johann
       changes:
         - sqlFile:
-            path: db/sql/users/insert-initial-data.sql
+            path: ../sql/insert-initial-data.sql
             relativeToChangelogFile: true

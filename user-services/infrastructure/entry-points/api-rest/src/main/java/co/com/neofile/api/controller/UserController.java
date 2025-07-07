@@ -1,7 +1,7 @@
 package co.com.neofile.api.controller;
 
 
-import co.com.neofile.model.user.User;
+import co.com.neofile.model.users.Users;
 import co.com.neofile.usecase.UserUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +18,7 @@ public class UserController {
   private final UserUseCase userUseCase;
 
     @PostMapping
-    public ResponseEntity<User> create(@RequestBody User user) {
+    public ResponseEntity<Users> create(@RequestBody Users user) {
         return ResponseEntity.ok(userUseCase.execute(user));
     }
 }

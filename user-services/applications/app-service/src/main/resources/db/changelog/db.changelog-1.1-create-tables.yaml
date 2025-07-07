@@ -4,5 +4,5 @@ databaseChangeLog:
       author: neofile-admin
       changes:
         - sqlFile:
-            path: db/sql/users/create-tables.sql
+            path: ../sql/create-tables.sql
             relativeToChangelogFile: true
